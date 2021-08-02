@@ -1,0 +1,40 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("content.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;  /* 内容将在边界内换行。如果需要，单词内部允许断行 */
+	word-break: break-all; /* 文本行的任意字内断开 */
+}
+
+body {
+	background: #FFF;
+	color: #333;
+}
+
+a {
+	color: #0287CA;
+	/* 文本修饰 */
+	text-decoration: none; /* 去除下划线 */
+}
+
+a:hover {
+	text-decoration: underline; /* 鼠标移入,显示下划线 */
+}
+
+ul,
+li {
+	list-style: none; /* 默认显示图标去除 */
+}
+
+img {
+	border: none; /* 图像没有边框 */
+}
+/* 210802新增:
+修改了整体未包括在一个大块的问题 */
+.wrap{
+	width: 1170px;
+	margin: 0 auto;
+}
